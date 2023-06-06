@@ -19,7 +19,3 @@ def main():
     rclpy.init()
     talker = Talker()
     rclpy.spin(talker)
-
-
-if __name__ == "__main__":
-    main()
