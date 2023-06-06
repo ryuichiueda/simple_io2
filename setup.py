@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'pub = simple_io2.pub:main',
+            'sub = simple_io2.sub:main',
         ],
     },
 )
